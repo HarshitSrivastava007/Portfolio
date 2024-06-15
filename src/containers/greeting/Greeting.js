@@ -45,11 +45,12 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            {/* <img
-							alt="saad sitting on table"
-							src={require("../../assests/images/feelingProud.svg")}
-						></img> */}
-            <FeelingProud theme={theme} />
+            <img
+              alt="saad sitting on table"
+              style={{ borderRadius: "223%" }}
+              src={require("../../assests/images/IMG_20240527_180148.png")}
+            ></img>
+            {/* <FeelingProud theme={theme} /> */}
           </div>
         </div>
       </div>

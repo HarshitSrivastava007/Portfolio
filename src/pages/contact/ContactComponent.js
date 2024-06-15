@@ -26,7 +26,7 @@ class Contact extends Component {
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 <img
-                  src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                  src={require(`../../assests/images/73219336.jpeg`)}
                   alt=""
                 />
               </div>
@@ -44,14 +44,14 @@ class Contact extends Component {
                   {ContactData["description"]}
                 </p>
                 <SocialMedia theme={theme} />
-                <div className="resume-btn-div">
+                {/* <div className="resume-btn-div">
                   <Button
                     text="See My Resume"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </Fade>
@@ -69,9 +69,9 @@ class Contact extends Component {
                 </p>
                 <div className="blogsite-btn-div">
                   <Button
-                    text="Visit My Blogsite"
+                    text="Visit My Blogsite (In process)"
                     newTab={true}
-                    href={blogSection.link}
+                    // href={blogSection.link}
                     theme={theme}
                   />
                 </div>
@@ -95,13 +95,13 @@ class Contact extends Component {
                 <AddressImg theme={theme} />
               </div>
               <div className="address-heading-text-div">
-                <h1
+                {/* <h1
                   className="address-heading-text"
                   style={{ color: theme.text }}
                 >
                   {addressSection["title"]}
-                </h1>
-                <p
+                </h1> */}
+                {/* <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
@@ -112,21 +112,21 @@ class Contact extends Component {
                   style={{ color: theme.text }}
                 >
                   {phoneSection["title"]}
-                </h1>
+                </h1> */}
                 <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
                   {phoneSection["subtitle"]}
                 </p>
-                <div className="address-btn-div">
+                {/* <div className="address-btn-div">
                   <Button
                     text="Visit on Google Maps"
                     newTab={true}
                     href={addressSection.location_map_link}
                     theme={theme}
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </Fade>

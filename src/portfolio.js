@@ -26,7 +26,7 @@ const greeting = {
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   // resumeLink:
   //   "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  portfolio_repository: "https://github.com/HarshitSrivastava007/Portfolio",
   githubProfile: "https://github.com/HarshitSrivastava007",
 };
 
@@ -223,13 +223,6 @@ const skills = {
         "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
-        // {
-        //   skillName: "GCP",
-        //   fontAwesomeClassname: "simple-icons:googlecloud",
-        //   style: {
-        //     color: "#4285F4",
-        //   },
-        // },
         {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
@@ -237,20 +230,22 @@ const skills = {
             color: "#FF9900",
           },
         },
-        // {
-        //   skillName: "Azure",
-        //   fontAwesomeClassname: "simple-icons:microsoftazure",
-        //   style: {
-        //     color: "#0089D6",
-        //   },
-        // },
-        // {
-        //   skillName: "Firebase",
-        //   fontAwesomeClassname: "simple-icons:firebase",
-        //   style: {
-        //     color: "#FFCA28",
-        //   },
-        // },
+        {
+          skillName: "Vercel",
+          fontAwesomeClassname: "simple-icons:vercel",
+          style: {
+            backgroundColor: "#050708",
+            borderRadius: "10px",
+            color: "#ffffff",
+          },
+        },
+        {
+          skillName: "Nginx",
+          fontAwesomeClassname: "simple-icons:nginx",
+          style: {
+            color: "#FFCA28",
+          },
+        },
         {
           skillName: "PostgreSQL",
           fontAwesomeClassname: "simple-icons:postgresql",
@@ -272,13 +267,13 @@ const skills = {
             color: "#1488C6",
           },
         },
-        // {
-        //   skillName: "Kubernetes",
-        //   fontAwesomeClassname: "simple-icons:kubernetes",
-        //   style: {
-        //     color: "#326CE5",
-        //   },
-        // },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#ff4800",
+          },
+        },
       ],
     },
     {
@@ -305,19 +300,19 @@ const skills = {
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
+          skillName: "Adobe Photoshop",
+          fontAwesomeClassname: "simple-icons:adobephotoshop",
           style: {
             color: "#FF7C00",
           },
         },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
+        // {
+        //   skillName: "Inkscape",
+        //   fontAwesomeClassname: "simple-icons:inkscape",
+        //   style: {
+        //     color: "#000000",
+        //   },
+        // },
       ],
     },
   ],
